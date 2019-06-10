@@ -13,7 +13,7 @@ public class HelloWorldServlet extends HttpServlet {
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
         if(request.getParameter("name") != null) {
-            out.println("<h1>Hello,"+request.getParameter("name")+"!</h1>");
+            out.println("<h1>Hello, "+request.getParameter("name")+"!</h1>");
         }else {
             out.println("<h1>Hello, World!</h1>");
         }
