@@ -8,6 +8,6 @@
         <ul class="nav navbar-nav navbar-right">
             <li><a class="text-white" href="/login">Login</a></li>
         </ul>
-    </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>
+<br>
